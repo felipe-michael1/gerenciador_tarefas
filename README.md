@@ -38,3 +38,24 @@ A aplicação possui uma interface amigável feita com `Tkinter`, organizada com
 ```bash
 git clone https://github.com/felipe-michael1/gerenciador_tarefas.git
 cd gerenciador_tarefas
+```
+
+### 2. Crie um ambiente virtual (opcional, mas recomendado):
+```bash
+python -m venv .venv
+source .venv/bin/activate  # Linux/macOS
+.venv\Scripts\activate      # Windows
+```
+
+### 3. Instale as Dependências do seu projeto:
+```bash
+pip install -r requirements.txt
+```
+
+Se você não tem o MongoDB instalado, baixe aqui: https://www.mongodb.com/try/download/community
+Certifique-se de que o serviço do MongoDB está rodando (localhost:27017 por padrão).
+
+### 4. Execute a sua aplicação:
+```bash
+python gerenciadorTarefas.py
+```
